@@ -1,0 +1,5 @@
+package Groovys
+
+def mm(String mm){
+    println("我是一个，小小滴石头，深深的埋在，泥土之中"+mm)
+}

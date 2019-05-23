@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="高版本jdk适应groovy的jar包">
+    <CLASSES>
+      <root url="file://F:/高版本jdk适应groovy的jar包" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://F:/高版本jdk适应groovy的jar包" />
+    </SOURCES>
+    <jarDirectory url="file://F:/高版本jdk适应groovy的jar包" recursive="false" />
+    <jarDirectory url="file://F:/高版本jdk适应groovy的jar包" recursive="false" type="SOURCES" />
+  </library>
+</component>

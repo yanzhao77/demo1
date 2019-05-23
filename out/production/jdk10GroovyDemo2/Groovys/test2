@@ -1,0 +1,15 @@
+package Groovys
+
+import javac.javatest1
+
+def mm(String path) {//F:/autoFileMerge.groovy
+    def cli = new CliBuilder()
+    cli.o(longOpt: 'open', args: 1, 'open the File')
+    cli.h(longOpt: 'help', 'show uage information')
+    def options=cli.parse(path.split())
+    println(options.o)
+    String filePath=options.o
+    println(filePath)
+    def dd=new javatest1();
+    dd.readFile(filePath)
+}
